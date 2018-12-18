@@ -1,0 +1,84 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a {
+  color: #00B7FF; }
+
+  .index{
+    width: 100%;
+    height: 80vh;
+    background: url('/images/cinema.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+  }
+img, .txt{
+  max-width: 180px;
+}
+
+.movie-card{
+  min-height: 400px;
+}
+.index h1{
+ color:white;
+ font-size: 80px;
+}
+
+.content{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text{
+  width:60%;
+}
+
+.txt{
+  padding: 5px;
+}
+
+.movies-container{
+  margin:20px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.return{
+  margin-top: 20px;
+}
+.mov-container{
+  padding:20px;
+}
+
+.movie-card{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 10px;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index-btn{
+  border-radius: 35px;
+  padding:15px 20px;
+  color:rgba(0, 0,0, 0);
+  background-color: white;
+}
+.index-btn a{
+  color:rgba(0, 0,0, 0.5);
+}
+
+/*# sourceMappingURL=style.css.map */

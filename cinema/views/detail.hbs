@@ -1,0 +1,19 @@
+<div class="mov-container">
+  {{#each movie}}
+  <h1>{{this.title}}</h1>
+  <div class="row">
+    <div class="col">
+      
+      <img src="{{this.image}}" alt="image">
+    </div>
+    <div class="col">
+      <h4>Description</h4>
+      <p>{{this.description}}</p>
+    </div>
+  </div>
+  {{/each}}
+
+  <div>
+    <a href="/" class="btn btn-outline-info return" role="button">Return</a>
+  </div>
+</div>
